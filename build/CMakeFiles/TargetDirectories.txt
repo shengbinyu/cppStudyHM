@@ -1,0 +1,3 @@
+/Users/yushengbin/workplace/cpp/HMstudy/build/CMakeFiles/hello.dir
+/Users/yushengbin/workplace/cpp/HMstudy/build/CMakeFiles/edit_cache.dir
+/Users/yushengbin/workplace/cpp/HMstudy/build/CMakeFiles/rebuild_cache.dir
