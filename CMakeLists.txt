@@ -1,7 +1,11 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 3.15)
+# To find the cmake version run
+cmake_minimum_required(VERSION 3.5)
 
+# Set the project name 
 project(studycpp)
 
+# Standard cpp 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(hello src/01-Hello.cpp)
+# Add an excutable
+add_executable(studycpp src/02-bubbleSort.cpp)

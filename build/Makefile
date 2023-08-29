@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello
+# Target rules for targets named studycpp
 
 # Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
+studycpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 studycpp
+.PHONY : studycpp
 
 # fast build rule for target.
-hello/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+studycpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/build
+.PHONY : studycpp/fast
 
-src/01-Hello.o: src/01-Hello.cpp.o
-.PHONY : src/01-Hello.o
+src/02-bubbleSort.o: src/02-bubbleSort.cpp.o
+.PHONY : src/02-bubbleSort.o
 
 # target to build an object file
-src/01-Hello.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/01-Hello.cpp.o
-.PHONY : src/01-Hello.cpp.o
+src/02-bubbleSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/02-bubbleSort.cpp.o
+.PHONY : src/02-bubbleSort.cpp.o
 
-src/01-Hello.i: src/01-Hello.cpp.i
-.PHONY : src/01-Hello.i
+src/02-bubbleSort.i: src/02-bubbleSort.cpp.i
+.PHONY : src/02-bubbleSort.i
 
 # target to preprocess a source file
-src/01-Hello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/01-Hello.cpp.i
-.PHONY : src/01-Hello.cpp.i
+src/02-bubbleSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/02-bubbleSort.cpp.i
+.PHONY : src/02-bubbleSort.cpp.i
 
-src/01-Hello.s: src/01-Hello.cpp.s
-.PHONY : src/01-Hello.s
+src/02-bubbleSort.s: src/02-bubbleSort.cpp.s
+.PHONY : src/02-bubbleSort.s
 
 # target to generate assembly for a file
-src/01-Hello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/01-Hello.cpp.s
-.PHONY : src/01-Hello.cpp.s
+src/02-bubbleSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/02-bubbleSort.cpp.s
+.PHONY : src/02-bubbleSort.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello"
-	@echo "... src/01-Hello.o"
-	@echo "... src/01-Hello.i"
-	@echo "... src/01-Hello.s"
+	@echo "... studycpp"
+	@echo "... src/02-bubbleSort.o"
+	@echo "... src/02-bubbleSort.i"
+	@echo "... src/02-bubbleSort.s"
 .PHONY : help
 
 
