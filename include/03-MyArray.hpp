@@ -56,7 +56,7 @@ public:
         if (this->pAddress != NULL)
         {
             delete [] this->pAddress;
-            this->pAddress = NUL;
+            this->pAddress = NULL;
         }
     }
 

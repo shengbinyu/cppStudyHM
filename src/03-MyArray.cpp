@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-#include "MyArray.hpp"
+#include "03-MyArray.hpp"
 
 void test01()
 {
     MyArray<int> arr1(5);
-    MyArray<int> arr2(arr2);
+//    MyArray<int> arr2(arr1);
 }
 
 int main()
 {
-    std::cout << "Hello world" << std::endl;
+    test01();
     return 0;
 }
 

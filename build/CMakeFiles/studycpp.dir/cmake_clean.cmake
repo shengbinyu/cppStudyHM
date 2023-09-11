@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/studycpp.dir/src/02-bubbleSort.cpp.o"
-  "CMakeFiles/studycpp.dir/src/02-bubbleSort.cpp.o.d"
+  "CMakeFiles/studycpp.dir/src/03-MyArray.cpp.o"
+  "CMakeFiles/studycpp.dir/src/03-MyArray.cpp.o.d"
   "studycpp"
   "studycpp.pdb"
 )

@@ -129,29 +129,29 @@ studycpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/build
 .PHONY : studycpp/fast
 
-src/02-bubbleSort.o: src/02-bubbleSort.cpp.o
-.PHONY : src/02-bubbleSort.o
+src/03-MyArray.o: src/03-MyArray.cpp.o
+.PHONY : src/03-MyArray.o
 
 # target to build an object file
-src/02-bubbleSort.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/02-bubbleSort.cpp.o
-.PHONY : src/02-bubbleSort.cpp.o
+src/03-MyArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/03-MyArray.cpp.o
+.PHONY : src/03-MyArray.cpp.o
 
-src/02-bubbleSort.i: src/02-bubbleSort.cpp.i
-.PHONY : src/02-bubbleSort.i
+src/03-MyArray.i: src/03-MyArray.cpp.i
+.PHONY : src/03-MyArray.i
 
 # target to preprocess a source file
-src/02-bubbleSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/02-bubbleSort.cpp.i
-.PHONY : src/02-bubbleSort.cpp.i
+src/03-MyArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/03-MyArray.cpp.i
+.PHONY : src/03-MyArray.cpp.i
 
-src/02-bubbleSort.s: src/02-bubbleSort.cpp.s
-.PHONY : src/02-bubbleSort.s
+src/03-MyArray.s: src/03-MyArray.cpp.s
+.PHONY : src/03-MyArray.s
 
 # target to generate assembly for a file
-src/02-bubbleSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/02-bubbleSort.cpp.s
-.PHONY : src/02-bubbleSort.cpp.s
+src/03-MyArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/03-MyArray.cpp.s
+.PHONY : src/03-MyArray.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... studycpp"
-	@echo "... src/02-bubbleSort.o"
-	@echo "... src/02-bubbleSort.i"
-	@echo "... src/02-bubbleSort.s"
+	@echo "... src/03-MyArray.o"
+	@echo "... src/03-MyArray.i"
+	@echo "... src/03-MyArray.s"
 .PHONY : help
 
 

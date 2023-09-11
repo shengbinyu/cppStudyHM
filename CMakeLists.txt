@@ -8,4 +8,10 @@ project(studycpp)
 set(CMAKE_CXX_STANDARD 11)
 
 # Add an excutable
-add_executable(studycpp src/02-bubbleSort.cpp)
+add_executable(studycpp src/03-MyArray.cpp)
+
+# Add inlcude
+target_include_directories(studycpp
+    PRIVATE
+    ${PROJECT_SOURCE_DIR}/include
+)
