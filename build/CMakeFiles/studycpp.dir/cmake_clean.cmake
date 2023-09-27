@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/studycpp.dir/src/03-MyArray.cpp.o"
-  "CMakeFiles/studycpp.dir/src/03-MyArray.cpp.o.d"
+  "CMakeFiles/studycpp.dir/src/04-listExample.cpp.o"
+  "CMakeFiles/studycpp.dir/src/04-listExample.cpp.o.d"
   "studycpp"
   "studycpp.pdb"
 )

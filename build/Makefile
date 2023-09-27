@@ -129,29 +129,29 @@ studycpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/build
 .PHONY : studycpp/fast
 
-src/03-MyArray.o: src/03-MyArray.cpp.o
-.PHONY : src/03-MyArray.o
+src/04-listExample.o: src/04-listExample.cpp.o
+.PHONY : src/04-listExample.o
 
 # target to build an object file
-src/03-MyArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/03-MyArray.cpp.o
-.PHONY : src/03-MyArray.cpp.o
+src/04-listExample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/04-listExample.cpp.o
+.PHONY : src/04-listExample.cpp.o
 
-src/03-MyArray.i: src/03-MyArray.cpp.i
-.PHONY : src/03-MyArray.i
+src/04-listExample.i: src/04-listExample.cpp.i
+.PHONY : src/04-listExample.i
 
 # target to preprocess a source file
-src/03-MyArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/03-MyArray.cpp.i
-.PHONY : src/03-MyArray.cpp.i
+src/04-listExample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/04-listExample.cpp.i
+.PHONY : src/04-listExample.cpp.i
 
-src/03-MyArray.s: src/03-MyArray.cpp.s
-.PHONY : src/03-MyArray.s
+src/04-listExample.s: src/04-listExample.cpp.s
+.PHONY : src/04-listExample.s
 
 # target to generate assembly for a file
-src/03-MyArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/03-MyArray.cpp.s
-.PHONY : src/03-MyArray.cpp.s
+src/04-listExample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/04-listExample.cpp.s
+.PHONY : src/04-listExample.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... studycpp"
-	@echo "... src/03-MyArray.o"
-	@echo "... src/03-MyArray.i"
-	@echo "... src/03-MyArray.s"
+	@echo "... src/04-listExample.o"
+	@echo "... src/04-listExample.i"
+	@echo "... src/04-listExample.s"
 .PHONY : help
 
 
