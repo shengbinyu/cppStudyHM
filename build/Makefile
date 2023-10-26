@@ -129,29 +129,53 @@ studycpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/build
 .PHONY : studycpp/fast
 
-src/04-listExample.o: src/04-listExample.cpp.o
-.PHONY : src/04-listExample.o
+src/05-speech/main.o: src/05-speech/main.cpp.o
+.PHONY : src/05-speech/main.o
 
 # target to build an object file
-src/04-listExample.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/04-listExample.cpp.o
-.PHONY : src/04-listExample.cpp.o
+src/05-speech/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o
+.PHONY : src/05-speech/main.cpp.o
 
-src/04-listExample.i: src/04-listExample.cpp.i
-.PHONY : src/04-listExample.i
+src/05-speech/main.i: src/05-speech/main.cpp.i
+.PHONY : src/05-speech/main.i
 
 # target to preprocess a source file
-src/04-listExample.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/04-listExample.cpp.i
-.PHONY : src/04-listExample.cpp.i
+src/05-speech/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/05-speech/main.cpp.i
+.PHONY : src/05-speech/main.cpp.i
 
-src/04-listExample.s: src/04-listExample.cpp.s
-.PHONY : src/04-listExample.s
+src/05-speech/main.s: src/05-speech/main.cpp.s
+.PHONY : src/05-speech/main.s
 
 # target to generate assembly for a file
-src/04-listExample.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/04-listExample.cpp.s
-.PHONY : src/04-listExample.cpp.s
+src/05-speech/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/05-speech/main.cpp.s
+.PHONY : src/05-speech/main.cpp.s
+
+src/05-speech/speechManager.o: src/05-speech/speechManager.cpp.o
+.PHONY : src/05-speech/speechManager.o
+
+# target to build an object file
+src/05-speech/speechManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o
+.PHONY : src/05-speech/speechManager.cpp.o
+
+src/05-speech/speechManager.i: src/05-speech/speechManager.cpp.i
+.PHONY : src/05-speech/speechManager.i
+
+# target to preprocess a source file
+src/05-speech/speechManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.i
+.PHONY : src/05-speech/speechManager.cpp.i
+
+src/05-speech/speechManager.s: src/05-speech/speechManager.cpp.s
+.PHONY : src/05-speech/speechManager.s
+
+# target to generate assembly for a file
+src/05-speech/speechManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.s
+.PHONY : src/05-speech/speechManager.cpp.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... studycpp"
-	@echo "... src/04-listExample.o"
-	@echo "... src/04-listExample.i"
-	@echo "... src/04-listExample.s"
+	@echo "... src/05-speech/main.o"
+	@echo "... src/05-speech/main.i"
+	@echo "... src/05-speech/main.s"
+	@echo "... src/05-speech/speechManager.o"
+	@echo "... src/05-speech/speechManager.i"
+	@echo "... src/05-speech/speechManager.s"
 .PHONY : help
 
 

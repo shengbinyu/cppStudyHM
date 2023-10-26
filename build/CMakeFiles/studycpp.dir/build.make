@@ -69,31 +69,47 @@ include CMakeFiles/studycpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/studycpp.dir/flags.make
 
-CMakeFiles/studycpp.dir/src/04-listExample.cpp.o: CMakeFiles/studycpp.dir/flags.make
-CMakeFiles/studycpp.dir/src/04-listExample.cpp.o: /Users/yushengbin/workplace/cpp/HMstudy/src/04-listExample.cpp
-CMakeFiles/studycpp.dir/src/04-listExample.cpp.o: CMakeFiles/studycpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yushengbin/workplace/cpp/HMstudy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/studycpp.dir/src/04-listExample.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/studycpp.dir/src/04-listExample.cpp.o -MF CMakeFiles/studycpp.dir/src/04-listExample.cpp.o.d -o CMakeFiles/studycpp.dir/src/04-listExample.cpp.o -c /Users/yushengbin/workplace/cpp/HMstudy/src/04-listExample.cpp
+CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o: CMakeFiles/studycpp.dir/flags.make
+CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o: /Users/yushengbin/workplace/cpp/HMstudy/src/05-speech/main.cpp
+CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o: CMakeFiles/studycpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yushengbin/workplace/cpp/HMstudy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o -MF CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o.d -o CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o -c /Users/yushengbin/workplace/cpp/HMstudy/src/05-speech/main.cpp
 
-CMakeFiles/studycpp.dir/src/04-listExample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/studycpp.dir/src/04-listExample.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yushengbin/workplace/cpp/HMstudy/src/04-listExample.cpp > CMakeFiles/studycpp.dir/src/04-listExample.cpp.i
+CMakeFiles/studycpp.dir/src/05-speech/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/studycpp.dir/src/05-speech/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yushengbin/workplace/cpp/HMstudy/src/05-speech/main.cpp > CMakeFiles/studycpp.dir/src/05-speech/main.cpp.i
 
-CMakeFiles/studycpp.dir/src/04-listExample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/studycpp.dir/src/04-listExample.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yushengbin/workplace/cpp/HMstudy/src/04-listExample.cpp -o CMakeFiles/studycpp.dir/src/04-listExample.cpp.s
+CMakeFiles/studycpp.dir/src/05-speech/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/studycpp.dir/src/05-speech/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yushengbin/workplace/cpp/HMstudy/src/05-speech/main.cpp -o CMakeFiles/studycpp.dir/src/05-speech/main.cpp.s
+
+CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o: CMakeFiles/studycpp.dir/flags.make
+CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o: /Users/yushengbin/workplace/cpp/HMstudy/src/05-speech/speechManager.cpp
+CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o: CMakeFiles/studycpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yushengbin/workplace/cpp/HMstudy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o -MF CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o.d -o CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o -c /Users/yushengbin/workplace/cpp/HMstudy/src/05-speech/speechManager.cpp
+
+CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yushengbin/workplace/cpp/HMstudy/src/05-speech/speechManager.cpp > CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.i
+
+CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yushengbin/workplace/cpp/HMstudy/src/05-speech/speechManager.cpp -o CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.s
 
 # Object files for target studycpp
 studycpp_OBJECTS = \
-"CMakeFiles/studycpp.dir/src/04-listExample.cpp.o"
+"CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o" \
+"CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o"
 
 # External object files for target studycpp
 studycpp_EXTERNAL_OBJECTS =
 
-studycpp: CMakeFiles/studycpp.dir/src/04-listExample.cpp.o
+studycpp: CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o
+studycpp: CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o
 studycpp: CMakeFiles/studycpp.dir/build.make
 studycpp: CMakeFiles/studycpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/yushengbin/workplace/cpp/HMstudy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable studycpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/yushengbin/workplace/cpp/HMstudy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable studycpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/studycpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/studycpp.dir/src/04-listExample.cpp.o"
-  "CMakeFiles/studycpp.dir/src/04-listExample.cpp.o.d"
+  "CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o"
+  "CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o.d"
+  "CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o"
+  "CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o.d"
   "studycpp"
   "studycpp.pdb"
 )
