@@ -8,12 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/yushengbin/workplace/cpp/HMstudy/src/05-speech/main.cpp" "CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o" "gcc" "CMakeFiles/studycpp.dir/src/05-speech/main.cpp.o.d"
-  "/Users/yushengbin/workplace/cpp/HMstudy/src/05-speech/speechManager.cpp" "CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o" "gcc" "CMakeFiles/studycpp.dir/src/05-speech/speechManager.cpp.o.d"
+  "/home/sbyu/Workplace/cppStudyHM/src/06-testenum.cpp" "CMakeFiles/studycpp.dir/src/06-testenum.cpp.o" "gcc" "CMakeFiles/studycpp.dir/src/06-testenum.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
