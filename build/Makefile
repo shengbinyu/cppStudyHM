@@ -129,29 +129,29 @@ studycpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/build
 .PHONY : studycpp/fast
 
-src/06-testenum.o: src/06-testenum.cpp.o
-.PHONY : src/06-testenum.o
+src/07-testmap.o: src/07-testmap.cpp.o
+.PHONY : src/07-testmap.o
 
 # target to build an object file
-src/06-testenum.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/06-testenum.cpp.o
-.PHONY : src/06-testenum.cpp.o
+src/07-testmap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/07-testmap.cpp.o
+.PHONY : src/07-testmap.cpp.o
 
-src/06-testenum.i: src/06-testenum.cpp.i
-.PHONY : src/06-testenum.i
+src/07-testmap.i: src/07-testmap.cpp.i
+.PHONY : src/07-testmap.i
 
 # target to preprocess a source file
-src/06-testenum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/06-testenum.cpp.i
-.PHONY : src/06-testenum.cpp.i
+src/07-testmap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/07-testmap.cpp.i
+.PHONY : src/07-testmap.cpp.i
 
-src/06-testenum.s: src/06-testenum.cpp.s
-.PHONY : src/06-testenum.s
+src/07-testmap.s: src/07-testmap.cpp.s
+.PHONY : src/07-testmap.s
 
 # target to generate assembly for a file
-src/06-testenum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/06-testenum.cpp.s
-.PHONY : src/06-testenum.cpp.s
+src/07-testmap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/07-testmap.cpp.s
+.PHONY : src/07-testmap.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... studycpp"
-	@echo "... src/06-testenum.o"
-	@echo "... src/06-testenum.i"
-	@echo "... src/06-testenum.s"
+	@echo "... src/07-testmap.o"
+	@echo "... src/07-testmap.i"
+	@echo "... src/07-testmap.s"
 .PHONY : help
 
 
