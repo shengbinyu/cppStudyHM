@@ -129,29 +129,29 @@ studycpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/build
 .PHONY : studycpp/fast
 
-src/07-testmap.o: src/07-testmap.cpp.o
-.PHONY : src/07-testmap.o
+src/08-testint2f.o: src/08-testint2f.cpp.o
+.PHONY : src/08-testint2f.o
 
 # target to build an object file
-src/07-testmap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/07-testmap.cpp.o
-.PHONY : src/07-testmap.cpp.o
+src/08-testint2f.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/08-testint2f.cpp.o
+.PHONY : src/08-testint2f.cpp.o
 
-src/07-testmap.i: src/07-testmap.cpp.i
-.PHONY : src/07-testmap.i
+src/08-testint2f.i: src/08-testint2f.cpp.i
+.PHONY : src/08-testint2f.i
 
 # target to preprocess a source file
-src/07-testmap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/07-testmap.cpp.i
-.PHONY : src/07-testmap.cpp.i
+src/08-testint2f.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/08-testint2f.cpp.i
+.PHONY : src/08-testint2f.cpp.i
 
-src/07-testmap.s: src/07-testmap.cpp.s
-.PHONY : src/07-testmap.s
+src/08-testint2f.s: src/08-testint2f.cpp.s
+.PHONY : src/08-testint2f.s
 
 # target to generate assembly for a file
-src/07-testmap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/07-testmap.cpp.s
-.PHONY : src/07-testmap.cpp.s
+src/08-testint2f.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/studycpp.dir/build.make CMakeFiles/studycpp.dir/src/08-testint2f.cpp.s
+.PHONY : src/08-testint2f.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... studycpp"
-	@echo "... src/07-testmap.o"
-	@echo "... src/07-testmap.i"
-	@echo "... src/07-testmap.s"
+	@echo "... src/08-testint2f.o"
+	@echo "... src/08-testint2f.i"
+	@echo "... src/08-testint2f.s"
 .PHONY : help
 
 

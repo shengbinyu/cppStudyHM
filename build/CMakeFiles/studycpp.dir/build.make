@@ -69,28 +69,28 @@ include CMakeFiles/studycpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/studycpp.dir/flags.make
 
-CMakeFiles/studycpp.dir/src/07-testmap.cpp.o: CMakeFiles/studycpp.dir/flags.make
-CMakeFiles/studycpp.dir/src/07-testmap.cpp.o: ../src/07-testmap.cpp
-CMakeFiles/studycpp.dir/src/07-testmap.cpp.o: CMakeFiles/studycpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sbyu/Workplace/cppStudyHM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/studycpp.dir/src/07-testmap.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/studycpp.dir/src/07-testmap.cpp.o -MF CMakeFiles/studycpp.dir/src/07-testmap.cpp.o.d -o CMakeFiles/studycpp.dir/src/07-testmap.cpp.o -c /home/sbyu/Workplace/cppStudyHM/src/07-testmap.cpp
+CMakeFiles/studycpp.dir/src/08-testint2f.cpp.o: CMakeFiles/studycpp.dir/flags.make
+CMakeFiles/studycpp.dir/src/08-testint2f.cpp.o: ../src/08-testint2f.cpp
+CMakeFiles/studycpp.dir/src/08-testint2f.cpp.o: CMakeFiles/studycpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sbyu/Workplace/cppStudyHM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/studycpp.dir/src/08-testint2f.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/studycpp.dir/src/08-testint2f.cpp.o -MF CMakeFiles/studycpp.dir/src/08-testint2f.cpp.o.d -o CMakeFiles/studycpp.dir/src/08-testint2f.cpp.o -c /home/sbyu/Workplace/cppStudyHM/src/08-testint2f.cpp
 
-CMakeFiles/studycpp.dir/src/07-testmap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/studycpp.dir/src/07-testmap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sbyu/Workplace/cppStudyHM/src/07-testmap.cpp > CMakeFiles/studycpp.dir/src/07-testmap.cpp.i
+CMakeFiles/studycpp.dir/src/08-testint2f.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/studycpp.dir/src/08-testint2f.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sbyu/Workplace/cppStudyHM/src/08-testint2f.cpp > CMakeFiles/studycpp.dir/src/08-testint2f.cpp.i
 
-CMakeFiles/studycpp.dir/src/07-testmap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/studycpp.dir/src/07-testmap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sbyu/Workplace/cppStudyHM/src/07-testmap.cpp -o CMakeFiles/studycpp.dir/src/07-testmap.cpp.s
+CMakeFiles/studycpp.dir/src/08-testint2f.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/studycpp.dir/src/08-testint2f.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sbyu/Workplace/cppStudyHM/src/08-testint2f.cpp -o CMakeFiles/studycpp.dir/src/08-testint2f.cpp.s
 
 # Object files for target studycpp
 studycpp_OBJECTS = \
-"CMakeFiles/studycpp.dir/src/07-testmap.cpp.o"
+"CMakeFiles/studycpp.dir/src/08-testint2f.cpp.o"
 
 # External object files for target studycpp
 studycpp_EXTERNAL_OBJECTS =
 
-studycpp: CMakeFiles/studycpp.dir/src/07-testmap.cpp.o
+studycpp: CMakeFiles/studycpp.dir/src/08-testint2f.cpp.o
 studycpp: CMakeFiles/studycpp.dir/build.make
 studycpp: CMakeFiles/studycpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sbyu/Workplace/cppStudyHM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable studycpp"

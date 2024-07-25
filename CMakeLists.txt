@@ -8,7 +8,7 @@ project(studycpp)
 set(CMAKE_CXX_STANDARD 11)
 
 # Create a sources variable with a link to all cpp files to compile
-file(GLOB SOURCES "src/07-testmap.cpp")
+file(GLOB SOURCES "src/08-testint2f.cpp")
 
 # Add an excutable
 add_executable(studycpp ${SOURCES})
